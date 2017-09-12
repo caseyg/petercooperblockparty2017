@@ -1,0 +1,38 @@
+---
+---
+
+/*
+// Extra small devices (portrait phones, less than 34em)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) { ... }
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) { ... }
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) { ... }
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) { ... }
+*/
+
+#main-nav {
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    border-radius: 0;
+
+    a:link, a:visited {
+      color: #000;
+    }
+
+    .active {
+      font-weight: bold;
+    }
+}
+
+img {
+  max-width:100%
+}

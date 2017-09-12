@@ -1,0 +1,16 @@
+- title: About
+  rel-url: /about
+- title: Concept
+  rel-url: /concept
+- title: Featuring
+  rel-url: /featuring
+- title: Schedule + Map
+  rel-url: /schedule
+- title: Thanks
+  rel-url: /thanks
+- title: <i class="fa fa-facebook" aria-hidden="true"></i>
+  url: https://www.facebook.com/events/1957098257899323/
+  tooltip: Facebook Event
+- title: <i class="fa fa-envelope-o" aria-hidden="true"></i>
+  url: mailto:petercooperblockparty@gmail.com
+  tooltip: Email Us
