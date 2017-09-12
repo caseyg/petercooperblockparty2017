@@ -2,7 +2,9 @@ language: ruby
 rvm:
 - 2.1
 
-sudo: false
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
 
 after_success:
 - find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://petercooperblockparty.com/petercooperblockparty.com/public/2016/{}
