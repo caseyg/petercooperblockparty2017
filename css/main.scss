@@ -36,3 +36,41 @@
 img {
   max-width:100%;
 }
+
+table img {
+  max-width: auto!important;
+}
+
+#flags {
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+#flags nav {
+  width: 100vw;
+  position: fixed;
+    top:0;
+    left:0;
+}
+
+#flags table {
+  width: calc(100% * 13);
+  position: absolute;
+    top: 0;
+    left: 0;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#flags table td,
+#flags table tr
+#flags table tbody {
+  height: 100vh;
+}
+
+#flags table img {
+  max-height: 100%;
+  width: auto;
+}

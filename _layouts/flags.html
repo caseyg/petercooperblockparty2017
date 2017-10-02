@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container py-3">
+  Test
+</div>
+
+<table>
+  <tr>
+    {% for flag in page.flags %}
+      <td><img src="{{site.baseurl}}/images/flags/{{flag}}" alt=""></td>
+    {% endfor %}
+  </tr>
+</table>
