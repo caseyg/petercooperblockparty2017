@@ -74,3 +74,9 @@ table img {
   max-height: 100%;
   width: auto;
 }
+
+.photos figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

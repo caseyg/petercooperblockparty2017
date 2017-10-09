@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container-fluid py-3">
+	{{content}}
+	{% for photos in page.photos %}
+		<h1>{{photos.section}}</h1>
+	  	{% for rows in photos.rows %}
+			<div class="row">
+				{% for img in rows.row %}
+					{% for src in img %}
+						<figure class="col"><img src="{{ src }}"></figure>
+					{% endfor %}
+				{% endfor %}
+			</div>
+		{% endfor %}
+	{% endfor %}
+</div>
